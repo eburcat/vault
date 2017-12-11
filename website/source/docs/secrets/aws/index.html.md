@@ -59,7 +59,7 @@ credentials, environment credentials, shared file credentials, or IAM role/ECS
 task credentials in that order.
 
 The next step is to configure a role. A role is a logical name that maps
-to a policy used to generated those credentials.
+to a policy used to generate those credentials.
 You can either supply a user inline policy (via the policy argument), or
 provide a reference to an existing AWS policy by supplying the full ARN
 reference (via the arn argument).
